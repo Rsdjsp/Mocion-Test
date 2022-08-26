@@ -8,7 +8,7 @@ export default function Home() {
       <Title>Welcome to the Trivia Challenge</Title>
       <SubTitle>You will presented with 10 True or False questions</SubTitle>
       <SubTitle>Can you score 100% ?</SubTitle>
-      <Button text={"BEGIN"}></Button>
+      <Button text={"BEGIN"} navigates={"/quiz"}></Button>
     </Cover>
   );
 }
